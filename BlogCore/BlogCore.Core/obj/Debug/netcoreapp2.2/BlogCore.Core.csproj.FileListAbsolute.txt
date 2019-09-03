@@ -1,0 +1,9 @@
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\bin\Debug\netcoreapp2.2\BlogCore.Core.deps.json
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\bin\Debug\netcoreapp2.2\BlogCore.Core.dll
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\bin\Debug\netcoreapp2.2\BlogCore.Core.pdb
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\obj\Debug\netcoreapp2.2\BlogCore.Core.csprojAssemblyReference.cache
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\obj\Debug\netcoreapp2.2\BlogCore.Core.csproj.CoreCompileInputs.cache
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\obj\Debug\netcoreapp2.2\BlogCore.Core.AssemblyInfoInputs.cache
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\obj\Debug\netcoreapp2.2\BlogCore.Core.AssemblyInfo.cs
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\obj\Debug\netcoreapp2.2\BlogCore.Core.dll
+C:\Users\Vanavski\source\repos\BlogCore\BlogCore.Core\obj\Debug\netcoreapp2.2\BlogCore.Core.pdb

@@ -1,0 +1,74 @@
+﻿    @using System.Linq
+@using Westwind.AspNetCore.Markdown
+@model BlogCore.Web.Models.PostPresener
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="modal-header"> @Model.Post.Header </h3>
+@Markdown.ParseHtmlString((Model.Post.Body))
+<h5 class="modal-header">Comments</h5>
+
+<form id="f3" class="form-group">
+    <div>
+        <label class="text-body text-dark" for="comment_text">New Comment</label><br />
+        <textarea id="textarea" style="width: 50%" name="comment_text" rows=3> </textarea>
+        <input id="postid" type="hidden" name="post_id" value=@Model.Post.Id>
+        <input id="postheader" type="hidden" name="postHeader" value=@Model.Post.Header.Replace(' ','+')>
+        <br />
+        <input class="btn btn-outline-primary" type="button" id="submit" value="Add" onclick="ajaxTest()" />
+    </div>
+</form>
+
+
+
+<div id="comments" style="margin-left: 20px">
+    @foreach (var comm in Model.Comments.Reverse())
+    {
+        <div class="list-group-item">
+            <p><b>User:</b> @comm.UserLogin </p>
+            <div class="container text-muted">@comm.CommentText</div>
+        </div>
+    }
+</div>
+
+@section Scripts
+    {
+    <script type="text/javascript">
+        function ajaxTest() {
+            console.log("Entered method");
+            var textarea = $('#textarea').val();
+            var postId = $('#postid').val();
+
+            $.ajax({
+                type: 'POST',
+                url: `/Comment/Add?textarea=${textarea}&input=${postId}`,
+                error: function(xhr, status, errorThrown) {
+                    var err = "Status: " + status + " " + errorThrown;
+                    console.log(err);
+                }
+            }).done(function(data) {
+                console.log('entered done');
+                $('#textarea').val('');
+                var commentDiv = document.createElement('div');
+                commentDiv.classList.add('container');
+                commentDiv.classList.add('text-muted');
+                var p = document.createElement('p');
+                var b = document.createElement('b');
+                var textNode = document.createTextNode('User: ');
+                b.appendChild(textNode);
+                var text = document.createTextNode(data.userLogin);
+                p.appendChild(b);
+                p.appendChild(text);
+                var comment = document.createTextNode(data.commentText);
+                commentDiv.appendChild(comment);
+                var div = document.createElement('div');
+                div.classList.add('list-group-item');
+                div.appendChild(p);
+                div.appendChild(commentDiv);
+                $('#comments').prepend(div);
+                console.log('func is done');
+            });
+        }
+    </script>
+}

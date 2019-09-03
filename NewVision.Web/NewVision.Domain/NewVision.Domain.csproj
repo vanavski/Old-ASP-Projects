@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewVision.Core\NewVision.Core.csproj" />
+    <ProjectReference Include="..\NewVision.Db\NewVision.Db.csproj" />
+  </ItemGroup>
+
+</Project>

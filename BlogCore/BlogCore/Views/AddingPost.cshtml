@@ -1,0 +1,15 @@
+﻿<form id="f3" method="post" enctype="multipart/form-data" class="form-group" asp-action="Add" asp-controller="Post">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Header</span>
+        </div>
+        <input type="text" class="form-control" aria-describedby="basic-addon1" id="title" name="title">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon2">Post text</span>
+        </div>
+        <input type="text" class="form-control" aria-describedby="basic-addon2" id="text" name="text">
+    </div>
+    <input class="m-3 btn btn-outline-primary" type="submit" id="submit" value="Post it!" />
+</form>

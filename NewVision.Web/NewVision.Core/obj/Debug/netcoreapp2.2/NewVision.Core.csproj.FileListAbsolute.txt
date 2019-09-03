@@ -1,0 +1,12 @@
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\bin\Debug\netcoreapp2.2\NewVision.Core.deps.json
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\bin\Debug\netcoreapp2.2\NewVision.Core.dll
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\obj\Debug\netcoreapp2.2\NewVision.Core.csproj.CoreCompileInputs.cache
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\obj\Debug\netcoreapp2.2\NewVision.Core.AssemblyInfoInputs.cache
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\obj\Debug\netcoreapp2.2\NewVision.Core.AssemblyInfo.cs
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\obj\Debug\netcoreapp2.2\NewVision.Core.csprojAssemblyReference.cache
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\obj\Debug\netcoreapp2.2\NewVision.Core.csproj.CopyComplete
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\bin\Debug\netcoreapp2.2\NewVision.Core.pdb
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\obj\Debug\netcoreapp2.2\NewVision.Core.dll
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Core\obj\Debug\netcoreapp2.2\NewVision.Core.pdb

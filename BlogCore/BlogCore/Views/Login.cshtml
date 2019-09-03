@@ -1,0 +1,44 @@
+﻿@model BlogCoreWeb.Models.LoginPresenter
+
+<form id="f2" method="post" enctype="multipart/form-data" class="form-group" asp-action="Login" asp-controller="User">
+    <br />
+    <p>Log in</p>
+    <br />
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Login</span>
+        </div>
+        @*форма*@
+        <input type="text" class="form-control" aria-describedby="basic-addon1" id="login" name="login">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon2">Password</span>
+        </div>
+        @*здесь принимается форма*@
+        <input type="password" class="form-control" aria-describedby="basic-addon2" id="password" name="password">
+    </div>
+    <input class="m-3 btn btn-outline-primary" type="submit" id="submit" value="Log in" />
+    <br />
+    <br />
+</form>
+<form id="f1" method="post" enctype="multipart/form-data" class="form-group" asp-action="Signup" asp-controller="User">
+    <p>Sign up</p>
+    <br />
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">New login</span>
+        </div>
+        <hr />
+        @*здесь принимается форма*@
+        <input type="text" class="form-control" aria-describedby="basic-addon3" id="newLogin" name="newLogin">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon4">New password</span>
+        </div>
+        <input type="password" class="form-control" aria-describedby="basic-addon4" id="newPassword" name="newPassword">
+    </div>
+    <input class="m-3 btn btn-outline-primary" type="submit" id="submit2" value="Sign up" />
+</form>
+

@@ -1,0 +1,16 @@
+﻿@model BlogCore.Web.Models.PostsPresenter
+@using Westwind.AspNetCore.Markdown
+
+<h4 class="modal-header">Posts by user</h4>
+
+<div>
+    @foreach (var post in Model.List.Reverse())
+    {
+        <form style="margin: 10px" class="list-inline-item" action="/Post/ShowPostById">
+            @Markdown.ParseHtmlString("<h5>" + post.Header + "</h5>")
+            <input type="hidden" name="postHeader" value="@post.Header" />
+            <br />
+            <input class="float-right btn btn-outline-dark" type="submit" value="Show full post" />
+        </form>
+    }
+</div>

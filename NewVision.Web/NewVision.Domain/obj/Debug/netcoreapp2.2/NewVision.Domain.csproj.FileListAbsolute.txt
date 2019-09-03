@@ -1,0 +1,14 @@
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\bin\Debug\netcoreapp2.2\NewVision.Domain.deps.json
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\bin\Debug\netcoreapp2.2\NewVision.Domain.dll
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\bin\Debug\netcoreapp2.2\NewVision.Domain.pdb
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\bin\Debug\netcoreapp2.2\NewVision.Core.dll
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\bin\Debug\netcoreapp2.2\NewVision.Db.dll
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\bin\Debug\netcoreapp2.2\NewVision.Core.pdb
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\bin\Debug\netcoreapp2.2\NewVision.Db.pdb
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\obj\Debug\netcoreapp2.2\NewVision.Domain.csprojAssemblyReference.cache
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\obj\Debug\netcoreapp2.2\NewVision.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\obj\Debug\netcoreapp2.2\NewVision.Domain.AssemblyInfoInputs.cache
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\obj\Debug\netcoreapp2.2\NewVision.Domain.AssemblyInfo.cs
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\obj\Debug\netcoreapp2.2\NewVision.Domain.csproj.CopyComplete
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\obj\Debug\netcoreapp2.2\NewVision.Domain.dll
+C:\Users\Vanavski\source\repos\NewVision.Web\NewVision.Domain\obj\Debug\netcoreapp2.2\NewVision.Domain.pdb
